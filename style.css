@@ -102,9 +102,10 @@ body {
 
 /* Paragraph styling */
 .letter-content p {
-    margin: 10px 0;
-    font-size: 1.2em;
-    line-height: 1.5; /* Improved readability */
+    margin: 5px 0; /* Spacing between paragraphs */
+    font-size: small; /* Slightly smaller font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    padding: 0 10px; /* Padding to prevent text from touching the edges */
 }
 
 /* Media query for smaller devices */
